@@ -39,7 +39,7 @@ private class SharpenShaderProgram(
 
     override fun drawFrame(inputTexId: Int, presentationTimeUs: Long) {
         glProgram.use()
-        glProgram.setSamplerTexIdUniform("uTexSampler", inputTexId, /* externalTexture= */ false)
+        glProgram.setSamplerTexIdUniform("uTexSampler", inputTexId, /* texUnitIndex= */ 0)
         glProgram.setFloatUniform("uAmount", amount)
         glProgram.bindAttributesAndUniforms()
         GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4)
