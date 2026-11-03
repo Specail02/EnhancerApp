@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- مثلث التشغيل -->
+    <path
+        android:pathData="M44,38 L44,72 L73,55 Z"
+        android:strokeWidth="5" android:strokeLineJoin="round"
+        android:strokeColor="#F2B544">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="44" android:startY="38" android:endX="73" android:endY="72"
+                android:startColor="#FFD777" android:endColor="#E8962A" />
+        </aapt:attr>
+    </path>
+    <!-- لمعة التحسين -->
+    <path
+        android:fillColor="#5FD0DC"
+        android:pathData="M71,25 C71.7,30.5 73.5,32.3 79,33 C73.5,33.7 71.7,35.5 71,41 C70.3,35.5 68.5,33.7 63,33 C68.5,32.3 70.3,30.5 71,25 Z" />
+    <path
+        android:fillColor="#5FD0DC"
+        android:pathData="M60,29 C60.3,31 61,31.7 63,32 C61,32.3 60.3,33 60,35 C59.7,33 59,32.3 57,32 C59,31.7 59.7,31 60,29 Z" />
+</vector>
